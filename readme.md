@@ -17,6 +17,14 @@ logs to stdout an error message object containing:
 @param {IncomingMessage} req
 ```
 
+## getGenericRequestOptions( req, request_options, user_options )
+augments the `request_options` provided
+```javascript
+@param {IncomingMessage} req
+@param {Object} request_options
+@param {Object} [user_options]
+```
+
 ## requestHelper( options, debug )
 ```javascript
 @param {Object} options
