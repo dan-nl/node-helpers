@@ -23,6 +23,8 @@ augments the `request_options` provided
 @param {IncomingMessage} req
 @param {Object} request_options
 @param {Object} [user_options]
+@param {string} [user_options.user-agent = request/2.69.0 ( https://www.npmjs.com/package/request )]
+@param {number} [user_options.timeout = ( 3 * 1000 )]
 ```
 
 ## requestHelper( options, debug )
