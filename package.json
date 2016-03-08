@@ -1,0 +1,19 @@
+{
+  "name": "node-helpers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "a set of helpers for node applications",
+  "scripts": {
+    "jshint": "jshint ."
+  },
+  "author": "dan entous",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "request": "^2.69.0",
+    "request-debug": "^0.2.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1"
+  }
+}
