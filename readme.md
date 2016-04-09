@@ -1,6 +1,27 @@
 # node helpers
 a set of helpers for node applications
 
+## arraySort( array, sort_on )
+```javascript
+@param {Array} array
+@param {string} sort_on
+@returns {Array} the sorted array
+```
+
+## copyFile( source, destination )
+```javascript
+@param {string} source
+@param {string} destination
+@returns {Promise}
+```
+
+## createFile( destination, content )
+```javascript
+@param {string} destination
+@param {string} content
+@returns {Promise}
+```
+
 ## errorLogger( err, req )
 logs to stdout an error message object containing:
 * req.method
@@ -17,6 +38,12 @@ logs to stdout an error message object containing:
 @param {IncomingMessage} req
 ```
 
+## fileExists( filePath )
+```javascript
+@param {string} filePath
+@returns {boolean}
+```
+
 ## getGenericRequestOptions( req, request_options, user_options )
 augments the `request_options` provided
 ```javascript
@@ -25,6 +52,12 @@ augments the `request_options` provided
 @param {Object} [user_options]
 @param {string} [user_options.user-agent = request/2.69.0 ( https://www.npmjs.com/package/request )]
 @param {number} [user_options.timeout = ( 3 * 1000 )]
+```
+
+## readFile( source )
+```javascript
+@param {string} source
+@returns {Promise}
 ```
 
 ## requestHelper( options, debug )
