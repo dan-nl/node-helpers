@@ -9,11 +9,11 @@
   "author": "dan entous",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.3.4",
-    "request": "^2.69.0",
+    "bluebird": "^3.4.1",
+    "request": "^2.72.0",
     "request-debug": "^0.2.0"
   },
   "devDependencies": {
-    "jshint": "^2.9.1"
+    "jshint": "^2.9.2"
   }
 }
