@@ -22,6 +22,12 @@ a set of helpers for node applications
 @returns {Promise}
 ```
 
+## directoryExists( directoryPath )
+```javascript
+@param {string} directoryPath
+@returns {boolean}
+```
+
 ## errorLogger( err, req )
 logs to stdout an error message object containing:
 * req.method
